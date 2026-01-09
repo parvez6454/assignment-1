@@ -102,6 +102,10 @@
     color: rgba(70, 145, 101, 1);
     border-radius: 20px;
     margin-bottom: 20px;
+    cursor: pointer;
+}
+.banner-content .btn-2:hover{
+    background-color: aqua;
 }
 
 .btn-3 {
@@ -114,6 +118,10 @@
     border-radius: 4px;
     border: none;
     gap: 16px;
+    cursor: pointer;
+}
+.btn-3:hover{
+    background-color: blue;
 }
 
 .btn-4 {
@@ -125,6 +133,10 @@
     border: 1px solid #FFFFFF;
     border-radius: 4px;
     background-color: rgba(0, 25, 49, 0.8);
+    cursor: pointer;
+}
+.btn-4:hover{
+    background-color: burlywood;
 }
 
 #banner .banner-container .btn-both {
@@ -301,7 +313,12 @@
     box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
     border: none;
     margin-bottom: 30px;
+    cursor: pointer;
 }
+.btn-5:hover{
+    background-color: chartreuse;
+}
+
 #access .container .paragraph-3{
     font-size: 16px;
     font-weight: 400px;

@@ -4,7 +4,7 @@
 }
 
 * {
-    margin-top: 0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -70,6 +70,7 @@
 }
 
 .banner-container h1 {
+    margin-bottom: 30px;
     padding: 16px, 200px;
     font-size: 72px;
     align-content: center;
@@ -143,6 +144,7 @@
     display: flex;
     gap: 16px;
     justify-content: center;
+    margin-top: 30px;
 
 
 }
@@ -155,6 +157,7 @@
 }
 
 .notes-content h2 {
+    margin-bottom: 40px;
     font-size: 48px;
     font-weight: 700px;
     color: rgba(0, 0, 0, 1);
@@ -170,12 +173,13 @@
 
 #notes {
     padding: 0 120px;
+    /* margin-bottom: 30px; */
 }
 
 .notes-card {
     display: flex;
     justify-content: space-between;
-    /* text-align: center; */
+    text-align: center;
     align-items: center;
     text-align: center;
     /* padding: auto, 120px; */
@@ -187,7 +191,7 @@
 
 .notes-card .card-1 {
     padding: 24px;
-    margin-top: 0px;
+    margin-top: 30px;
     border-radius: 8px;
     background-color: rgba(255, 255, 255, 1);
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
@@ -213,15 +217,17 @@
 .notes-card .card-1 h4 {
     font-size: 24px;
     font-weight: 600px;
-    /* text-align: center; */
+    text-align: center;
     color: rgba(0, 25, 49, 1);
+    margin: 30px 0;
 }
 
 .notes-card .card-1 p {
     font-size: 16px;
     font-weight: 400px;
     color: rgba(98, 115, 130, 1);
-    margin-top: -20px;
+    /* margin-top: -20px; */
+    align-items: center;
 }
 
 #second-brain {
@@ -243,7 +249,8 @@
 #second-brain .brain-content{
     text-align: center;
     align-items: center;
-    margin: auto;
+    margin-top: auto;
+   
 }
 
 #second-brain .brain-content .paragraph-1{
@@ -251,6 +258,7 @@
     font-weight: 500px;
     color: rgba(70, 145, 101, 1);
     text-align: left;
+    margin-top: 50px;
     
 }
 #second-brain .brain-content h2{
@@ -258,6 +266,7 @@
     font-weight: 700px;
     color: rgba(0, 25, 49, 1);
     text-align: left; 
+    margin-bottom: 40px;
 }
 #second-brain .brain-content .paragraph-2{
      font-size: 16px;
@@ -266,7 +275,7 @@
     line-height: 20px;
     text-align:left;
     padding-right: 120px;
-    margin-top: -30px;
+    /* margin-top: -30px; */
 
 }
 #second-brain .brain-content .list{
@@ -276,12 +285,13 @@
     font-size: 16px;
     font-weight: 500px;
     line-height: 20px;
+    margin-top: 30px;
 }
 #access{
     margin: 120px 80px;
     align-items: center;
     text-align: center;
-    padding: 80px 40px;
+    padding:  40px 250px;
     background-color: #F7F6F2;
     border-radius: 12px;
     max-width: 1350px;
@@ -293,6 +303,7 @@
     font-weight: 700px;
     color: rgba(0, 25, 49, 1);
     line-height: 48px;
+    margin-bottom: 40px;
 }
 #access .container p{
     font: 16px;
@@ -300,6 +311,7 @@
     line-height: 24px;
     color: rgba(98, 115, 130, 1);
     margin-top: -30px;
+
 
     
 }
@@ -324,3 +336,32 @@
     font-weight: 400px;
     color: rgba(98, 115, 130, 1);
 }
+#footer{
+    padding: 120px 30px 120px;
+    background-color:rgba(0, 2, 49, 1);
+   
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.social-icons{
+    font-size: 20px;
+    font-weight: 500px;
+    color: #FFFFFF;
+    line-height: 28px;
+    text-align: center;
+   
+
+}
+#footer .footer-1{
+    font-size: 16px;
+    font-weight: 400px;
+    color: #FFFFFF;
+    text-align: center;
+    border-top: 1px solid rgba(229, 231, 235, 1) ;
+    opacity: 0.2;
+
+}
+
+
